@@ -1,6 +1,6 @@
 {
   "name": "javascript-calculator",
-  "homepage": "http://notTheOnlyShivani.github.io/javascript.calculator"
+  "homepage": "http://notTheOnlyShivani.github.io/javascript.calculator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
