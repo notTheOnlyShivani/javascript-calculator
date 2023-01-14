@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+  background-color: #6E85B7;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .calculator {
+   height: 395px;
+   width: 300px;
+   border: 5px solid black;
+   margin: auto;
+   margin-top: 150px;
+   background-color: black;
   }
-  to {
-    transform: rotate(360deg);
+  
+  #display {
+    height: 47px;
+    text-align: right;
+    font-family: Chakra Petch;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
   }
-}
+  
+  #output {
+    height: 40px;
+    text-align: right;
+  }
+  
+  #input {
+    text-align: right;
+  }
+  
+  .grid-container {
+    display: grid;
+    /* margin-top: 20px; */
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+  
+  .buttons {
+    padding: 23px;
+    font-size: 16px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0.8px solid black;
+    border-radius: 1px;
+    font-family: Odibee Sans;
+    color: white;
+  }
+  
+  .buttons:hover {
+    border: 0.8px solid white;
+    color: black;
+  }
+  
+  #clear {
+    grid-column: 1/3;
+  }
+  
+  #zero {
+    grid-column: 1/3;
+  }
+  
+  #equals {
+    grid-column: 4;
+    grid-row: 6 / 4;
+    background-color: #3E6D9C;
+  }
+  
+  #clear {
+    background-color: #EB455F;
+  }
+  
+  #subtract {
+    background-color: #B2B2B2;
+  }
+  
+  #add {
+    background-color: #B2B2B2;
+  }
+  
+  #divide {
+    background-color: #B2B2B2;
+  }
+  
+  #multiply {
+    background-color: #B2B2B2;
+  }
+  
+  #one {
+    background-color: #444444;
+  }
+  
+  #two {
+    background-color: #444444;
+  }
+  
+  #three {
+    background-color: #444444;
+  }
+  
+  #four {
+    background-color: #444444;
+  }
+  
+  #five {
+    background-color: #444444;
+  }
+  
+  #six {
+    background-color: #444444;
+  }
+  
+  #seven {
+    background-color: #444444;
+  }
+  
+  #eight {
+    background-color: #444444;
+  }
+  
+  #nine {
+    background-color: #444444;
+  }
+  
+  #zero {
+    background-color: #444444;
+  }
+  
+  #decimal {
+    background-color: #444444;
+  }
