@@ -3,7 +3,7 @@
   }
   
   .calculator {
-   height: 395px;
+   height: 417px;
    width: 300px;
    border: 5px solid black;
    margin: auto;
@@ -11,23 +11,28 @@
    background-color: black;
   }
   
-  #display {
-    height: 47px;
+  .output {
+    height: 37px;
     text-align: right;
     font-family: Chakra Petch;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: bold;
     background-color: black;
     color: white;
+    margin-bottom: 0;
   }
   
-  #output {
-    height: 40px;
+
+
+  .input {
+    height: 30px;
+    background-color: black;
+    font-family: Chakra Petch;
+    font-size: 24px;
+    font-weight: bold;
     text-align: right;
-  }
-  
-  #input {
-    text-align: right;
+    color: white;
+    margin-top: 0;
   }
   
   .grid-container {
